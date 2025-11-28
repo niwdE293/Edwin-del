@@ -12,7 +12,7 @@ body {
 }
 
 #upper_portion {
-    background-image: url("img/pumpkins.jpg");
+    background-image: url("");
     font-size: 100%;
         
 }
@@ -93,7 +93,6 @@ section {
 #img2 {
     width: 100%;
     grid-area: img2;
-    filter:sepia();
 }
 
 footer {
