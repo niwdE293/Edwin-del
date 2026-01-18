@@ -4,6 +4,13 @@ body {
     
 }
 
+#h1 {
+    color: white;
+
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
+}
+
 #wrapper-hem {
     display: grid;
     margin: auto;
@@ -72,7 +79,7 @@ a {
     text-align: center;
     background-image: url("../img/Kafe.jpg");
     background-size: cover;
-    background-repeat: norepeat;
+    background-repeat:no-repeat;
     aspect-ratio: 189/127;
   
 }
